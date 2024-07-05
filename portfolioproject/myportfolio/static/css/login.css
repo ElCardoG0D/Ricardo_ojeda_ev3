@@ -1,0 +1,65 @@
+body {
+    background-color: #7dd4a2; /* Fondo claro para el formulario */
+}
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(100%); /* Inicia fuera de la pantalla a la derecha */
+    }
+    50% {
+        transform: translateX(50%); /* Pasa al centro de la pantalla */
+    }
+    100% {
+        transform: translateX(0); /* Llega a la posición final */
+    }
+}
+
+.logo {
+    font-size: 100px; /* Tamaño de fuente ajustable */
+    color: #70e329; /* Color blanco para el texto */
+    animation: moveRightToLeft 10s ease-in-out infinite; /* Animación de 3 segundos */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+
+#login {
+    background-color: #47b154; /* Fondo verde para el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff; /* Texto blanco para el título */
+}
+
+.form-group input {
+    border-radius: 5px;
+    border: 2px solid #34a34f; /* Borde verde */
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    color: #ffffff; /* Texto blanco para las etiquetas */
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #34a34f; /* Color de fondo del botón */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #28a745; /* Cambio de color al pasar el ratón */
+}
+
+.logo {
+    font-size: 18px;
+    color: #ffffff; /* Texto blanco para el logo */
+    line-height: 1.2;
+}
